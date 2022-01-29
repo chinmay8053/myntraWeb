@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Spline+Sans&display=swap");
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.head {
+ padding: 20px 50px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ background: linear-gradient(#303030, #252525);
+}
+.logo {
+ width: 150px;
+}
+.logo img {
+ width: 100%;
+}
+.navMenu {
+ margin-right: 500px;
+}
+.navMenu a {
+ display: inline-block;
+ color: rgb(165, 165, 165);
+ letter-spacing: 1px;
+ padding: 10px 20px;
+ cursor: pointer;
+ font-weight: bold;
+ font-size: 14px;
+ font-family: "Spline Sans", sans-serif;
+}
+.navMenu a:hover {
+ color: rgb(187, 187, 187);
+ text-decoration: none;
+ transform: scale(1.1);
+ transition: 500ms;
+}
+.viewer {
+ display: flex;
+ position: relative;
+}
+.optionSelector {
+ width: 17%;
+ background: rgb(83, 83, 83);
+ height: 90vh;
+ display: inline-block;
+}
+.seasons {
+ display: inline-block;
+ width: 80%;
+ height: 300px;
+}
+
+.products {
+ list-style: none;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+.padding-top {
+ padding-top: 30px;
+}
+.product {
+ text-align: left;
+ width: 13em;
+ padding: 10px;
+ cursor: pointer;
+}
+.shirt img {
+ width: 150px;
+ height: 210px;
+}
+.productInfo {
+ padding: 0 8px;
+}
+
+.productInfo h3 {
+ margin: 0;
+ margin-top: 15px;
+ font-size: 16px;
+ font-family: "Lato", sans-serif;
+ font-weight: 700;
+}
+.productInfo h4 {
+ margin: 0;
+ font-size: 12px;
+ font-weight: 400;
+}
+
+.productImg {
+ width: 100%;
+}
